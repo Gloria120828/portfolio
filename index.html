@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>刘嘉 · Visual Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      background: #f4f2ed;
+      color: #171717;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 32px 6vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+
+    .year {
+      font-size: 12px;
+      letter-spacing: 2px;
+      opacity: 0.5;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 8vh 10vw 12vh;
+    }
+
+    .content {
+      max-width: 900px;
+    }
+
+    .small {
+      font-size: 13px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      opacity: 0.55;
+    }
+
+    h1 {
+      font-size: clamp(58px, 10vw, 130px);
+      line-height: 0.9;
+      font-weight: 500;
+      letter-spacing: -5px;
+      margin-bottom: 38px;
+    }
+
+    .line {
+      width: 70px;
+      height: 1px;
+      background: #171717;
+      margin-bottom: 28px;
+    }
+
+    .description {
+      max-width: 520px;
+      font-size: 17px;
+      line-height: 1.9;
+      color: #555;
+      margin-bottom: 45px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 17px 30px;
+      border: 1px solid #171717;
+      color: #171717;
+      text-decoration: none;
+      font-size: 13px;
+      letter-spacing: 2px;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background: #171717;
+      color: white;
+    }
+
+    footer {
+      padding: 28px 6vw;
+      font-size: 11px;
+      letter-spacing: 2px;
+      opacity: 0.4;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 24px;
+      }
+
+      main {
+        padding: 10vh 24px;
+      }
+
+      h1 {
+        font-size: 64px;
+        letter-spacing: -3px;
+      }
+
+      footer {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+
+    <header>
+      <div class="logo">LIU JIA</div>
+      <div class="year">PORTFOLIO · 2026</div>
+    </header>
+
+    <main>
+      <div class="content">
+
+        <div class="small">Visual Portfolio</div>
+
+        <h1>刘嘉<br>作品集</h1>
+
+        <div class="line"></div>
+
+        <p class="description">
+          视觉设计作品集。<br>
+          Explore selected works, visual experiments
+          and design projects.
+        </p >
+
+        <a class="button" href=" " target="_blank">
+          VIEW PORTFOLIO →
+        </a >
+
+      </div>
+    </main>
+
+    <footer>
+      <span>LIU JIA</span>
+      <span>VISUAL DESIGN</span>
+    </footer>
+
+  </div>
+
+</body>
+</html>
